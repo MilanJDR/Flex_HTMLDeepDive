@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    background-color: lemonchiffon;
+    height: 500px;
+    border: 1px solid #000000;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center;*/
+}
+
+.flex-item {
+    font-size: 24px;
+    padding: 30px;
+    width: 100px;
+    border: 1px solid #000000;
+    background-color: lightseagreen;
+    height: 100px;
+}
+
+#Foto-slider {
+    display: flex;
+    flex-direction: row;
+}
